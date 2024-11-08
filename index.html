@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width">
+  <title>JavaScript Lab 2</title>
+  <link href="/css/style.css" rel="stylesheet" type="text/css" />
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js">
+
+	</script>
+</head>
+
+<body>
+    <h1>Main Page</h1>
+    <h2>Comparing Inline, Internal, and External JavaScript</h2>
+    <p>The first button triggers a pop up window using inline javascript placed in the opening button tag:</p>
+    
+    <!-- Inline JavaScript -->
+  <button onclick = "alert('A Pop Up Created by Inline JavaScript')">Inline JS</button>
+    <br><a href = "/html/inline.html">Click here to go to the Inline Page</a><br><br>
+    
+    <p>The second button is created using internal JavaScript placed within the script tag </p>
+    
+    <!-- Internal JavaScript -->
+    <button onclick = "showAlert()">Internal JS</button>
+    <script>function showAlert() {
+    alert ("A Pop Up Created by Internal JavaScript");
+  }
+    </script>
+    <br><a href = "/html/internal.html">Click here to go to the Internal Page</a><br><br>
+
+    <p>The third button triggers a popup using external JavaScript placed in the script.js file: </p>
+    
+    <!-- External JavaScript -->
+    <button onclick = "showExternalAlert()">External JS</button>
+    
+  <script src="script.js"></script>
+    <br><a href = "/html/external.html">Click here to go to the External Page</a><br><br>
+
+    <br><br>
+    <button class = 'special' onclick = "goDark()">Go Dark!</button>
+
+</body>
+
+</html>

@@ -1,0 +1,32 @@
+body {
+  height: 100%;
+  width: 100%;
+    background-color: lightblue;
+}
+
+h1{
+    text-align: center;
+    color: navy;
+    font-size: 5.681rem;
+}
+
+h2{
+    text-align: center;
+    color: darkgreen;
+    font-size: 4.209rem;
+}
+
+p{
+    color: maroon;
+    font-size: 2rem;
+}
+
+a, button{
+    font-size: 2rem;
+}
+
+.dark{
+    background-color: midnightblue !important;
+    color: lightblue !important;
+    /* here !important is used to override inline styling rules */
+}

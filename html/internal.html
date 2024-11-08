@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width">
+  <title>replit</title>
+  <link href="../css/style.css" rel="stylesheet" type="text/css" />
+    <style>
+        body {
+            height: 100%;
+            width: 100%;
+            background-color: lavender;
+        }
+        h1{
+            text-align: center;
+            color: indigo;
+        }
+
+        h2{
+            text-align: center;
+            color: purple;
+        }
+        p{
+            color: fuchsia;
+        }
+    </style>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js">
+
+	</script>
+</head>
+
+<body>
+    <a href = "../index.html">Click here to go back to the Main Page</a><br><br>
+    <h1>Welcome to the Internal Page!</h1>
+    <p>This page uses internal styling placed between style tags in the head section to style the page, and uses internal javascript.</p>
+    
+    <!-- Internal JavaScript -->
+    <button onclick = "showAlert()">Internal JS</button>
+    <p>The "Internal JS" button triggers a pop-up window using internal JavaScript placed within the script tag </p>
+    
+    <script>function showAlert() {
+    alert ("A Pop Up Created by Internal JavaScript");
+  }
+    </script>
+    <script src="../script.js"></script>
+    <button class = 'special' onclick = "goDark()">Go Dark!</button>
+</body>
+</html>
